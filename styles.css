@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(250, 250, 135);
+}
+
+.jumbotron {
+    padding-top: 2rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    background-color: rgb(250, 250, 135);
+}
+
+.album {
+    background-color: rgb(250, 250, 135);
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.jumbotron p:last-child {
+    margin-bottom: 0;
+}
+
+.jumbotron h1 {
+    font-weight: 400;
+    color: black;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+}
+
+footer {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+footer p {
+    text-align: right;
+    margin-bottom: .25rem;
+}
+
+.a {
+    color: black;
+}
+
+.a:hover {
+    color: rgb(90, 89, 89);
+}
+
+.navbar-brand {
+    padding-left: 10px;
+}
+
+.b {
+    margin-left: 45%;
+}
+
+.navbar {
+    background-color: red;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+}
